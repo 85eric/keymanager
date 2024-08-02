@@ -1,0 +1,15 @@
+server:
+  grpc_addr: ":8283"
+  http_addr: ":6071"
+  start_version: 1
+
+mysql:
+  host: 127.0.0.1
+  port: 13306
+  db: wallet-keymanager
+  user: root
+  password: root
+
+file_db:
+  path: "./db"
+  temp_path: "./db/temp"
